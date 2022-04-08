@@ -5,14 +5,14 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "TraderBeasts";
+const description = "Unique Bulls and Bear NFTs to highlight your bias and market sentiment in your PFP.";
+const baseUri = "ipfs://QmWP1tRUYBpQb2mGWUuH5e3zTdJ4DdivDrQs1sBGifH8z2";
 
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://twitter.com/winkandsmiley",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
@@ -27,12 +27,15 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Dresser or table" },
+      { name: "Dresser Items" },
+      { name: "Bull or Bear" },
+      { name: "Dress Accessories" },
+      { name: "Style" },    
+      { name: "Mouth" },
+      { name: "Eyes" },
+      { name: "Eyebrows" },
+      { name: "Background Emotions" },
     ],
   },
 ];
@@ -42,8 +45,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1500,
+  height: 1500,
   smoothing: false,
 };
 
