@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "TraderBeasts";
+const namePrefix = "Trader Beasts A";
 const description = "Unique Bulls and Bear NFTs to highlight your bias and market sentiment in your PFP.";
-const baseUri = "ipfs://QmWP1tRUYBpQb2mGWUuH5e3zTdJ4DdivDrQs1sBGifH8z2";
+const baseUri = "ipfs://Qme5HatEBvvZDhnL69wKiSNkCxEb7SbDoE1ur9Fu5iZ9hU";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -15,7 +15,7 @@ const solanaMetadata = {
   external_url: "https://twitter.com/winkandsmiley",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "3EUCQdDrvpo3xXy6bWuLo9W4qNtZuNWwwZij2D5HRzi9",
       share: 100,
     },
   ],
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Dresser or table" },
